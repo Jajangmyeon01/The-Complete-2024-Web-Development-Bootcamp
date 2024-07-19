@@ -1,54 +1,25 @@
-// Challenge 1 //
-function main(){
-    putBeeper();
-}
-function moveFourTimes(){
+function getMilk(money) {   
+   console.log("leaveHouse");
+   console.log("moveRight");
+   console.log("moveRight");
+   console.log("moveUp");
+   console.log("moveUp");
+   console.log("moveUp");
+   console.log("moveUp");
+   console.log("moveRight");
+   console.log("moveRight");
 
-}   
+   var numOfBottles = Math.floor(money / 1.5);
 
-// Challenge 2 //
-function main(){
-    putBeeper();
-    twoTimesMoveWithBeeper();
-    twoTimesMove();
-    turnLeftAnOneMove();
-    putBeeper();
-    twoTimesMoveWithBeeper();
-    move();
-    turnRightMove();
-    putBeeper();
-    twoTimesMoveWithBeeper();
-    twoTimesMoveWithBeeper();
-    turnLeftAnOneMove();
-    putBeeper();
-    twoTimesMoveWithBeeper();
-    move();
-    turnRightMove();
-    putBeeper();
-    twoTimesMoveWithBeeper();
-    twoTimesMoveWithBeeper();
-     
+   console.log("buy " + numOfBottles + " bottles of milk");
+   console.log("moveLeft");
+   console.log("moveLeft");
+   console.log("moveDown");
+   console.log("moveDown");
+   console.log("moveDown");
+   console.log("moveDown");
+   console.log("moveLeft");
+   console.log("moveLeft");
+   console.log("enterHouse");
  }
- function twoTimesMove(){
-    move();
-    move();  
-    putBeeper();
- }
- function twoTimesMoveWithBeeper(){
-    move();
-    move();
-    putBeeper();
-      
- }
- function turnLeftAnOneMove(){
-    turnLeft();
-    move();
-    turnLeft();
-    move();
- }
- function turnRightMove(){
-    turnRight();
-    move();
-    turnRight();
- }  
- 
+ getMilk(5);
